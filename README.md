@@ -36,6 +36,7 @@ Then you can run `npm start` to start the app. This app was bootstraped with cre
 -   Add a function to add more movies and star wars series not listed in the API
 -   Context for the FilmDetails component
 -   User's feedback (Spinners, Tooltips, etc.)
+-   When the button to share the link is pressed, maybe we can build some embeded code like spotify and give a nice UX to the user. For now the link is copied to place it in the body of an email, message, post, etc.
 -   Tests
     -   App loads without erros
     -   The list of Films is equal to the elements in the response
