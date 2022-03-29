@@ -1,3 +1,32 @@
+# Getting started with this project
+
+## `npm install`
+
+After cloning this repository run `npm install` to download and install the dependencies for this project.
+
+Then you can run `npm start` to start the app. This app was bootstraped with create-react-app you can see more detail below.
+
+## Tech debts and improvements
+
+-   Animations
+-   Autocomplete doesn't feel entirely ok, with some more time I can make it better but I had to take
+    in considertaion the time for this challenge.
+-   Error handlers and redirection
+-   Check unnecessary component rendering
+-   Add images dynamically, the UI feels empty without the images, with more time I would add images to
+    the films
+-   Add a function to add more movies and star wars series not listed in the API
+-   Context for the FilmDetails component
+-   User's feedback (Spinners, Tooltips, etc.)
+-   Tests
+    -   App loads without erros
+    -   The list of Films is equal to the elements in the response
+    -   The Film item has title, Subtitle, opening crawl and a button and this is not empty
+    -   The Film details for title, subtitle, director, is not empty
+    -   The TableComponent loads without errors
+    -   The number of characters in the table is equal to the number of characters in the response
+    -   When the button to share is pressed the copied url matches the film details url
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

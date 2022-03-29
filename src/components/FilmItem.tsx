@@ -1,15 +1,13 @@
 import React, { useCallback } from "react";
 import { useHistory } from "react-router-dom";
-
-import styles from "./FilmItem.module.css";
-
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+
+import styles from "./FilmItem.module.css";
 
 const FilmItem: React.FC<{
 	title: string;
 	filmId: number;
-	image: string;
 	episode_id: number;
 	opening_crawl: string;
 }> = (props) => {
@@ -35,7 +33,7 @@ const FilmItem: React.FC<{
 					{props.opening_crawl}
 				</Card.Text>
 				<Button className={styles.button} onClick={onClickMovieHandler}>
-					Film Details
+					See more...
 				</Button>
 			</Card.Body>
 		</Card>
