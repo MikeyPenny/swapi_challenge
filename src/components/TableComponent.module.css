@@ -1,0 +1,12 @@
+.table {
+	background-color: #000000b3;
+	width: 50%;
+}
+
+.table th {
+	color: #ffc400;
+}
+
+.table td {
+	color: #6683df;
+}

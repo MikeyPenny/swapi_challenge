@@ -1,0 +1,35 @@
+.details_container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.detail_item {
+	width: 50%;
+	background-color: hsla(0, 0%, 0%, 0.8);
+	font-family: "Inter", sans-serif;
+	color: #e1e1e1;
+}
+
+.detail_title {
+	font-size: 2em;
+}
+
+.detail_episode {
+	font-size: 1.6em;
+	color: #e1e1e1;
+}
+
+.detail_title:hover {
+	color: #ffc400;
+}
+
+.detail_director {
+	font-size: 1.2;
+	color: #6683df;
+}
+
+.share_button {
+	background-color: rgb(0, 0, 197);
+}

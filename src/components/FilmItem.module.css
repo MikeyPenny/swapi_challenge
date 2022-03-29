@@ -1,0 +1,27 @@
+.item {
+	background-color: hsla(0, 0%, 0%, 0.8);
+	font-family: "Inter", sans-serif;
+	color: #e1e1e1;
+}
+
+.movie_title {
+	font-size: 2em;
+}
+
+.episode_num {
+	font-size: 1.6em;
+	color: #e1e1e1;
+}
+
+.movie_title:hover {
+	color: #ffc400;
+}
+
+.opening {
+	font-size: 1.2;
+	color: #6683df;
+}
+
+.button {
+	background-color: rgb(0, 0, 197);
+}

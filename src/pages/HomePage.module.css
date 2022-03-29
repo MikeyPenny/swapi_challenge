@@ -1,0 +1,40 @@
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	box-sizing: border-box;
+}
+
+.social_media {
+	width: 33%;
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-start;
+	margin-top: 1em;
+	margin-left: 1em;
+	color: #c4c1c1;
+	font-size: 1.5em;
+	box-sizing: border-box;
+}
+
+.social_media i {
+	margin: 10px;
+}
+
+figure {
+	margin: 0;
+	width: 33%;
+	display: flex;
+	justify-content: center;
+}
+
+figure img {
+	width: 40%;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
