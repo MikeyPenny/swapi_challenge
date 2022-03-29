@@ -22,7 +22,7 @@ For the Elsevier Funding Institutional Team coding challenge, we want you to cre
 
 After cloning this repository run `npm install` to download and install the dependencies for this project.
 
-Then you can run `npm start` to start the app. This app was bootstraped with create-react-app you can see more detail below.
+Then you can run `npm start` to start the app. This app was bootstraped with create-react-app you can see more details below.
 
 ## Tech debts and improvements
 
