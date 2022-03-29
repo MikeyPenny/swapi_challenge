@@ -1,4 +1,22 @@
-# Getting started with this project
+## About this project
+
+For the Elsevier Funding Institutional Team coding challenge, we want you to create a web application. This is not a pass or fail test, but it is intended to provide a shared basis for discussion in the technical interview. You can choose how little time you want to spend; however, we ask you to limit yourself to a maximum of 3 hours on this assignment. This means you will have to make decisions on what to do. In general, we value code quality and demonstration of programming logic over the number of features added to the application.
+
+## Requirements
+
+-   Please use React.js for your implementation
+-   Build a web application that uses the Star Wars API (https://swapi.dev/). Please do not use any external API wrapper libraries.
+-   A README file to explain steps to execute the application
+-   Please submit the code in a zip file or share the link to the repository (e.g., GitHub, Bitbucket, …).
+
+## Functionality
+
+-   Build a search for the users to search through the list of available Star Wars movies. Please decide on which details are relevant to the user.
+-   Allow users to view characters of the chosen movie. Please choose the details you think are relevant to the user.
+-   Users should be able to share the link, in any way – not necessarily through the application, with a different user. It is expected that the link navigates the receiving user to the page with correct results displayed, preserving the state of the page.
+-   You have freedom to make decisions on the UI/UX of the application.
+-   Bonus: Please provide an auto complete feature for the search.
+-   Feel free to use UI libraries like, Bootstrap, Tailwind - but not required
 
 ## `npm install`
 
